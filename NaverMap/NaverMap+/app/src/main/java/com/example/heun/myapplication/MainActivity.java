@@ -166,7 +166,7 @@ public class MainActivity extends NMapActivity {
                 a=myLocation.getLongitude();
                 b=myLocation.getLatitude();
 
-                getData("http://117.16.43.25/php_connect.php");
+                getData("");//"php 파일 주소"
             }
             return true;
         }
